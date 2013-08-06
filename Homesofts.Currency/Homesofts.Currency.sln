@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1488F891-01FE-4AE4-8C6E-45DE5B56B57C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2F816544-8A52-47B0-8096-D94AD8564CDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "query", "query", "{088C19F3-2AF8-4F24-8C93-3A4449ED724A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{3323D8BF-AFCA-4463-9B99-84F2D3751304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Currency.Service", "src\service\Homesofts.Currency.Service\Homesofts.Currency.Service.csproj", "{55F581A2-0527-4B12-AD3C-372239EBF03F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "component", "component", "{8C6651BD-3BE5-4041-952F-676C7D848767}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{F295B51C-538A-4126-9EA6-83CA25582C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Currency.Test.Component", "tests\component\Homesofts.Currency.Test.Component\Homesofts.Currency.Test.Component.csproj", "{9B89715E-6A8B-427C-A2E3-745C7346F875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Currency.Test.IntegrationTest", "tests\component\Homesofts.Currency.Test.IntegrationTest\Homesofts.Currency.Test.IntegrationTest.csproj", "{4D5334DF-FD48-42ED-BB3B-B96C4C187C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Currency.Repository", "src\service\Homesofts.Currency.Repository\Homesofts.Currency.Repository.csproj", "{70CF56A2-0225-4798-91D9-69C1F73A8350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F581A2-0527-4B12-AD3C-372239EBF03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F581A2-0527-4B12-AD3C-372239EBF03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F581A2-0527-4B12-AD3C-372239EBF03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F581A2-0527-4B12-AD3C-372239EBF03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B89715E-6A8B-427C-A2E3-745C7346F875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B89715E-6A8B-427C-A2E3-745C7346F875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B89715E-6A8B-427C-A2E3-745C7346F875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B89715E-6A8B-427C-A2E3-745C7346F875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5334DF-FD48-42ED-BB3B-B96C4C187C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5334DF-FD48-42ED-BB3B-B96C4C187C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5334DF-FD48-42ED-BB3B-B96C4C187C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5334DF-FD48-42ED-BB3B-B96C4C187C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CF56A2-0225-4798-91D9-69C1F73A8350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CF56A2-0225-4798-91D9-69C1F73A8350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CF56A2-0225-4798-91D9-69C1F73A8350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CF56A2-0225-4798-91D9-69C1F73A8350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{088C19F3-2AF8-4F24-8C93-3A4449ED724A} = {1488F891-01FE-4AE4-8C6E-45DE5B56B57C}
+		{3323D8BF-AFCA-4463-9B99-84F2D3751304} = {1488F891-01FE-4AE4-8C6E-45DE5B56B57C}
+		{8C6651BD-3BE5-4041-952F-676C7D848767} = {2F816544-8A52-47B0-8096-D94AD8564CDC}
+		{F295B51C-538A-4126-9EA6-83CA25582C04} = {2F816544-8A52-47B0-8096-D94AD8564CDC}
+		{55F581A2-0527-4B12-AD3C-372239EBF03F} = {3323D8BF-AFCA-4463-9B99-84F2D3751304}
+		{70CF56A2-0225-4798-91D9-69C1F73A8350} = {3323D8BF-AFCA-4463-9B99-84F2D3751304}
+		{9B89715E-6A8B-427C-A2E3-745C7346F875} = {8C6651BD-3BE5-4041-952F-676C7D848767}
+		{4D5334DF-FD48-42ED-BB3B-B96C4C187C34} = {8C6651BD-3BE5-4041-952F-676C7D848767}
+	EndGlobalSection
+EndGlobal

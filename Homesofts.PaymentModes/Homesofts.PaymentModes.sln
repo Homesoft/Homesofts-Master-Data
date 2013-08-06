@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50935420-49C2-4B8C-86A0-55BC06C5BF45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D3AA91E5-6F00-4EEA-81A0-1D1DE096D22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "query", "query", "{E41A9925-87F1-4A11-B00F-BB6475457B9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{2852DFB9-9BAE-4A73-A913-F3766E34CEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{E5784B08-BAF5-453C-B1DA-D17F8AF81F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "units", "units", "{783418E1-964F-4161-9426-3829CB2DD306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.PaymentModes.Service", "src\service\Homesofts.PaymentModes.Service\Homesofts.PaymentModes.Service.csproj", "{0D8AB138-B4E4-466E-919C-410BC43A3276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.PaymentModes.Repository", "src\service\Homesofts.PaymentModes.Repository\Homesofts.PaymentModes.Repository.csproj", "{B8758C48-387F-4B1D-870F-A75204B53C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.PaymentModes.Test.Integration", "tests\components\Homesofts.PaymentModes.Test.Integration\Homesofts.PaymentModes.Test.Integration.csproj", "{CE01A1A0-E0ED-4563-9DF6-89C4A1053390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8AB138-B4E4-466E-919C-410BC43A3276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8AB138-B4E4-466E-919C-410BC43A3276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8AB138-B4E4-466E-919C-410BC43A3276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8AB138-B4E4-466E-919C-410BC43A3276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8758C48-387F-4B1D-870F-A75204B53C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8758C48-387F-4B1D-870F-A75204B53C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8758C48-387F-4B1D-870F-A75204B53C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8758C48-387F-4B1D-870F-A75204B53C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE01A1A0-E0ED-4563-9DF6-89C4A1053390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE01A1A0-E0ED-4563-9DF6-89C4A1053390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE01A1A0-E0ED-4563-9DF6-89C4A1053390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE01A1A0-E0ED-4563-9DF6-89C4A1053390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E41A9925-87F1-4A11-B00F-BB6475457B9D} = {50935420-49C2-4B8C-86A0-55BC06C5BF45}
+		{2852DFB9-9BAE-4A73-A913-F3766E34CEF6} = {50935420-49C2-4B8C-86A0-55BC06C5BF45}
+		{E5784B08-BAF5-453C-B1DA-D17F8AF81F95} = {D3AA91E5-6F00-4EEA-81A0-1D1DE096D22D}
+		{783418E1-964F-4161-9426-3829CB2DD306} = {D3AA91E5-6F00-4EEA-81A0-1D1DE096D22D}
+		{0D8AB138-B4E4-466E-919C-410BC43A3276} = {2852DFB9-9BAE-4A73-A913-F3766E34CEF6}
+		{B8758C48-387F-4B1D-870F-A75204B53C26} = {2852DFB9-9BAE-4A73-A913-F3766E34CEF6}
+		{CE01A1A0-E0ED-4563-9DF6-89C4A1053390} = {E5784B08-BAF5-453C-B1DA-D17F8AF81F95}
+	EndGlobalSection
+EndGlobal

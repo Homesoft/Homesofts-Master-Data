@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1039D32F-58A2-4941-9D6B-EBAE888A02B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{492CCA92-50F9-45BA-B26E-7CB9EAF6FC05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "query", "query", "{1465E1E9-198E-40C8-8F27-3CD3596558DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{CC4DB3C3-6D7F-49A5-A55C-FCBB2C9CFB82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "units", "units", "{BE351166-58A2-4E0B-A360-09934D070D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{C10FD8F0-4A63-4D00-93E7-617DF4443524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Taxes.Service", "src\service\Homesofts.Taxes.Service\Homesofts.Taxes.Service.csproj", "{66EA2CBB-4711-4507-85B4-507F565CB800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Taxes.Test.Integration", "tests\components\Homesofts.Taxes.Test.Integration\Homesofts.Taxes.Test.Integration.csproj", "{F340B101-A3AF-459A-99F3-86F892E231EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homesofts.Taxes.Repository", "src\service\Homesofts.Taxes.Repository\Homesofts.Taxes.Repository.csproj", "{61CD621F-66DC-4387-89DC-B77DEA22805D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EA2CBB-4711-4507-85B4-507F565CB800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EA2CBB-4711-4507-85B4-507F565CB800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EA2CBB-4711-4507-85B4-507F565CB800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EA2CBB-4711-4507-85B4-507F565CB800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F340B101-A3AF-459A-99F3-86F892E231EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F340B101-A3AF-459A-99F3-86F892E231EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F340B101-A3AF-459A-99F3-86F892E231EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F340B101-A3AF-459A-99F3-86F892E231EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CD621F-66DC-4387-89DC-B77DEA22805D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CD621F-66DC-4387-89DC-B77DEA22805D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CD621F-66DC-4387-89DC-B77DEA22805D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CD621F-66DC-4387-89DC-B77DEA22805D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1465E1E9-198E-40C8-8F27-3CD3596558DA} = {1039D32F-58A2-4941-9D6B-EBAE888A02B6}
+		{CC4DB3C3-6D7F-49A5-A55C-FCBB2C9CFB82} = {1039D32F-58A2-4941-9D6B-EBAE888A02B6}
+		{BE351166-58A2-4E0B-A360-09934D070D18} = {492CCA92-50F9-45BA-B26E-7CB9EAF6FC05}
+		{C10FD8F0-4A63-4D00-93E7-617DF4443524} = {492CCA92-50F9-45BA-B26E-7CB9EAF6FC05}
+		{66EA2CBB-4711-4507-85B4-507F565CB800} = {CC4DB3C3-6D7F-49A5-A55C-FCBB2C9CFB82}
+		{61CD621F-66DC-4387-89DC-B77DEA22805D} = {CC4DB3C3-6D7F-49A5-A55C-FCBB2C9CFB82}
+		{F340B101-A3AF-459A-99F3-86F892E231EF} = {C10FD8F0-4A63-4D00-93E7-617DF4443524}
+	EndGlobalSection
+EndGlobal
